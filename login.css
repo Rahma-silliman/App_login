@@ -1,21 +1,47 @@
 :root{
     
 }
-
-
-.container{
+.input{
+    background-color: transparent;
+    width: 50%;
+  
+}
+::placeholder{
+    color: #fff;
+}
+.container-fluid{
+    background-color: rgb(78, 90, 56);
+    color: #fff;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    border-radius: 15px;
+
 }
 input{
     border-color: #CB8AFF;   
 }
 .btn{
-    border-color: #CB8AFF;
+    border-color: #541b83;
+    color: #fff;
 }
 .btn-primary{
-    background-color: #5C00A3;
+    
+}
+a{
+   color: #fff;
+   cursor: pointer;
+}
+span{
+    cursor: pointer;
+    padding-inline-start: 1rem;
+}
+svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+@media screen and (max-width:700px) {
+    .input{
+        background-color: transparent;
+        width: 20rem;
+      
+    }
 }
