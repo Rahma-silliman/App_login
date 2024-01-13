@@ -1,0 +1,21 @@
+:root{
+    
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    border-color: #CB8AFF;   
+}
+.btn{
+    border-color: #CB8AFF;
+}
+.btn-primary{
+    background-color: #5C00A3;
+}
